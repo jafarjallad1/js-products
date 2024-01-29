@@ -3,7 +3,7 @@ console.log(url);
 const id = url.get("id");
 console.log(id);
 
-   axios.get("https://dummyjson.com/products/${id}")
+   axios.get("https://dummyjson.com/products")
    .then(function (res)  {
      
      const products = res.data.products;
