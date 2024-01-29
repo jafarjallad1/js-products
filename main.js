@@ -5,9 +5,9 @@ console.log(id);
 
    axios.get("https://dummyjson.com/products/${id}")
    .then(function (res)  {
-     console.log(res);
+     
      const products = res.data.products;
-     console.log(products);
+     
 
      
  
